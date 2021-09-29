@@ -43,6 +43,7 @@ public class Shoot extends CommandBase {
   public void end(boolean interrupted) {
     m_timer.stop();
     m_cannon.setGate(false);
+    m_timer.reset() 
   }
 
   // Returns true when the command should end.
